@@ -1,0 +1,16 @@
+@apiPath=http://localhost:9999/api
+
+### GetAllTodos
+GET {{apiPath}}/todos
+
+
+### CreateTodo
+POST {{apiPath}}/todos
+Content-Type: application/json
+
+{
+  "id": 21,
+  "userId": 25,
+  "title": "das ist noch zu tun",
+  "completed": false
+}
