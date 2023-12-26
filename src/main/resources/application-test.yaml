@@ -1,5 +1,13 @@
+##spring:
+##  datasource:
+##    url: jdbc:tc:postgresql:15-alpine:///newspringfeatures
+##    username: postgres
+##    password: example
+
+
+
 spring:
   datasource:
-    url: jdbc:tc:postgresql:15-alpine:///newspringfeatures
+    url: jdbc:postgresql://localhost:5432/springfeatures-postgres
     username: postgres
     password: example

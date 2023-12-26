@@ -6,4 +6,6 @@ spring:
       mode: always
   docker:
     compose:
-      lifecycle-management: start_only
+      lifecycle-management: start_and_stop
+      skip:
+        in-tests: false
